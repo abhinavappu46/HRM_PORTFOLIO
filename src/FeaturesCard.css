@@ -86,7 +86,7 @@ h2{
 
     .Card{
         flex-direction: column;
-        /* height:auto; */
+         height:auto;
     }
 
     .FeaturesCard{
