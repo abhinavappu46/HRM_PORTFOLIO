@@ -99,6 +99,7 @@ h2{
         border-top: 4px solid #8B5CF6;
 
         padding-top: 20px;
+        min-height: 350px;
     }
 
 }
