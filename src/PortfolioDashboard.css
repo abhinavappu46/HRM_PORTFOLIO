@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;500;600;700;800&display=swap');
+#MainContainer{
+    background-image: url("./assets/portfolio1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    color:#FFFFFF;
+    background-attachment:fixed;
+    
+    
+}
+*{
+    margin: 0;
+    
+}
+#HeadContainer{
+display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    height: 50px;
+}
