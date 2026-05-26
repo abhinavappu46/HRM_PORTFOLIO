@@ -7,12 +7,14 @@
     min-height: 100vh;
     color:#FFFFFF;
     background-attachment:fixed;
+    overflow-x: hidden;
     
     
 }
 *{
     margin: 0;
-    
+    padding: 0;
+    box-sizing: border-box;
 }
 #HeadContainer{
 display: flex;

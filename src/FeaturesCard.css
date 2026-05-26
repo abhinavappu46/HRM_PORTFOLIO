@@ -8,6 +8,7 @@
     flex-wrap: wrap;
     gap: 20px;
 
+
 }
 .Card{
     background: rgba(15, 23, 42, 0.55);
@@ -60,20 +61,14 @@ h2{
     display: flex;
     
     
-    /* box-shadow: 0 0 20px rgba(139,92,246,0.4); */
+    
     
 }
-.Image{
-    width: 100%;
-   max-width: 400px;
-   
-    
-    border-radius: 20px;
-    object-fit: cover;
-}
+
 .FeaturesCard{
     flex: 1;
     border-left: 4px solid #8B5CF6;
+    max-width: 100%;
     min-width: 280px;
     padding-left: 20px;
     
@@ -91,15 +86,16 @@ h2{
 
     .Card{
         flex-direction: column;
+        height: auto;
     }
 
     .FeaturesCard{
         border-left: none;
+        width: 100%;
 
         border-top: 4px solid #8B5CF6;
 
         padding-top: 20px;
-        min-height: 350px;
     }
 
 }
