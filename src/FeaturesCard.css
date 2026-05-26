@@ -86,12 +86,12 @@ h2{
 
     .Card{
         flex-direction: column;
-        height: auto;
+        /* height:auto; */
     }
 
     .FeaturesCard{
         border-left: none;
-        /* width: 100%; */
+        width: 100%;
 
         border-top: 4px solid #8B5CF6;
 
