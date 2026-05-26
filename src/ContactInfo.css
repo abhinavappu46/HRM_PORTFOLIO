@@ -1,0 +1,44 @@
+#TopContainer {
+    width: 100%;
+    min-height: 120px;
+    display: flex;
+    justify-content: center;
+    background: rgba(15, 23, 42, 0.55);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    padding: 30px 20px;
+    margin-top: 60px;
+
+}
+
+a {
+    color: #CBD5E1;
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+    transition: 0.3s ease;
+    align-items: center;
+}
+
+#SecondContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+p {
+    color: #CBD5E1;
+}
+
+.Pcontainer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+a:hover {
+    color: #8B5CF6;
+}
